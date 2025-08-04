@@ -1,1 +1,772 @@
-https://n8n.srv931224.hstgr.cloud/workflow/FEkRyJuHrSAsxh5d
+{
+  "name": "🎓 1. Learn JSON Basics with an Interactive Step-by-Step Tutorial for Beginners",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "365fdd40-4e46-497b-8fef-9c356b2234cd",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Execute to Start",
+      "type": "n8n-nodes-base.manualTrigger",
+      "creator": "Lucas Peyrin",
+      "position": [
+        592,
+        1056
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "Spouse",
+              "type": "string",
+              "value": "\"My Spouse Name is Revathy\""
+            },
+            {
+              "id": "230945ad-97d8-429f-a5da-13fe16288120",
+              "name": "1st Son",
+              "value": "\"My Elder Son Name is Praveen\"",
+              "type": "string"
+            },
+            {
+              "id": "cc219844-a16f-466a-b128-d7bc331378eb",
+              "name": "2nd Son",
+              "value": "\"My Younger Son Name is Goutham Vijay\"",
+              "type": "string"
+            },
+            {
+              "id": "951d3fa2-e072-478e-9c63-91ba1b74424e",
+              "name": "JSON Explanation",
+              "value": "This is a simple string. In JSON, it's always enclosed in double quotes.",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "6c2fe8ca-9aa9-402a-949d-cc58177eb7e5",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "String",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        1232,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "Name",
+              "type": "string",
+              "value": "Natarajan Haridass"
+            },
+            {
+              "id": "b5f030f4-6650-4181-881f-de44790bb24b",
+              "name": "DOB",
+              "type": "string",
+              "value": "31/08/1976"
+            },
+            {
+              "id": "6da58733-0489-4ac5-9764-42fec9712614",
+              "name": "Email",
+              "value": "harrissces@gmail.com",
+              "type": "string"
+            },
+            {
+              "id": "4ca1b717-9ba9-47ac-8030-ce459bfac16d",
+              "name": "Key is name of the Data",
+              "value": "Value is Information of that data",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "3cffa562-bedc-42f9-ab4f-8b55cd3b5711",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Key & Value",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        944,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "Flat No.",
+              "type": "number",
+              "value": 304
+            },
+            {
+              "id": "12345",
+              "name": "Floor No.",
+              "type": "number",
+              "value": 3.5
+            },
+            {
+              "id": "691b9273-ce39-41a9-a716-1666059bf6a8",
+              "name": "json_example_integer",
+              "value": "json_example_integer",
+              "type": "string"
+            },
+            {
+              "id": "a2522ee9-6c76-40d8-aff2-35460f7c5031",
+              "name": "json_example_float",
+              "value": "12.5",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c4742e5d-8017-45e9-ada5-a2897c87b4cc",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Number",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        1520,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "if 10>15",
+              "type": "boolean",
+              "value": "={{ false }}"
+            },
+            {
+              "id": "a3b3c328-15fb-4c73-a000-972277c329ee",
+              "name": "if 10>15",
+              "value": "=false",
+              "type": "boolean"
+            },
+            {
+              "id": "6592ed02-442e-415b-aaf6-5b8849ed9d65",
+              "name": "json_example_boolean",
+              "value": "False",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "60ee473c-635c-41d7-acd2-4fa6c3acb665",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Boolean",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        1808,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "json_example_array",
+              "type": "array",
+              "value": "[\"first element\", 2, false, null]"
+            },
+            {
+              "id": "fc0198a9-e9c6-454e-bcf1-87de8a6b0728",
+              "name": "An Array can have anything [Number, String, Boolean, List Of Arrays and Object]",
+              "value": "[\"It starts with [ and also end with ]\"",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "56683e92-19a0-4a17-99a9-b92120739c74",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Array",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2384,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "json_example_object",
+              "type": "object",
+              "value": "{\"key\":\"value\",\"array\":[1,2,3],\"boolean\":false,\"integer\":123,\"sub_object\":{\"sub_key\":\"Find me!\"}}"
+            },
+            {
+              "id": "9af8c4d5-c904-4cce-8a5c-71cca495cd2f",
+              "name": "JSON Object",
+              "value": "An object is a collection of key/value pairs and it starts and ends with Cursy { } brackets",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "190c86c7-2d0b-47e1-a729-e22e9610dc8f",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Object",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2688,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "## Tutorial - What is JSON?\n\nWelcome! This workflow will teach you the basics of JSON, the language that apps and n8n nodes use to exchange information.\n\n**What is JSON?**\nImagine a contact card:\n- **Name:** John Doe\n- **Age:** 30\n- **Has Children:** Yes\n- **Phone Numbers:** [\"555-1234\", \"555-5678\"]\n\n\nJSON is just a way of writing this down so a computer can understand it perfectly.\n\n**How to use this tutorial:**\n1.  Click **\"Execute Workflow\"** button.\n2.  Click on each node, one by one, in order.\n3.  Look at the node's output in the panel on the right and read the associated sticky note to understand what's happening.",
+        "height": 656,
+        "width": 460
+      },
+      "id": "24b198bc-9a82-477f-921e-c7e5055d17cc",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        368,
+        560
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### The Heart of JSON: Key & Value\n\nEverything in JSON is built on this pair:\n- A **Key** (the name of the data, always in double quotes `\"`).\n- A **Value** (the data itself).\n\n\n`\"key\": \"value\"`\n\nIn this node's output, you see two key/value pairs. This is the basic building block for everything that follows.",
+        "height": 516,
+        "width": 260,
+        "color": 7
+      },
+      "id": "f9dfa173-b51f-41fb-8587-9c4ee2855265",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        864,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### Data Type: String\n\nA string is simply **text**.\n- **Syntax:** The text is always enclosed in double quotes `\" \"`.\n\n\nLook at the output: the value of `json_example_string` is the text we defined.",
+        "height": 516,
+        "width": 260,
+        "color": 7
+      },
+      "id": "fc2ad88e-b5cc-4dc4-91e6-f246d1654e26",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note2",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        1152,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### Data Type: Number\n\nThis is simply a number. It can be a whole number (integer) like 10, or a decimal (float) like 12.5.\n- **Syntax:** Just write the number directly, **WITHOUT quotes**.\n\n\n`\"age\": 30` (Correct)\n`\"age\": \"30\"` (Incorrect, this is a String!)\n\nThis distinction is crucial for doing math!",
+        "height": 516,
+        "width": 260,
+        "color": 7
+      },
+      "id": "4973dad8-cce4-490c-8ad1-01410ffb7740",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note3",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        1440,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### Data Type: Boolean\n\nThis is a value that can only be **TRUE** or **FALSE**.\n- **Syntax:** `true` or `false` (always lowercase and **WITHOUT quotes**).\n\n\nThink of it like a light switch: on (`true`) or off (`false`). It's very useful for conditions (If/Then logic).",
+        "height": 516,
+        "width": 260,
+        "color": 7
+      },
+      "id": "4240a747-d2de-42dc-882a-55aee236e76a",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note4",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        1728,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### Data Type: Array\n\nAn array is an **ordered list** of items.\n- **Syntax:** Starts with `[` and ends with `]`. Items are separated by commas.\n\n\nAn array can hold anything: strings, numbers, booleans, and even other arrays or objects!",
+        "height": 516,
+        "width": 324,
+        "color": 7
+      },
+      "id": "6eb904bc-a082-43fd-85ea-e672830cdcd2",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note5",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2272,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### Data Type: Object (JSON Object)\n\nThis is the main concept! An object is a **collection of key/value pairs**.\n- **Syntax:** Starts with `{` and ends with `}`.\n\n\nThis is what allows us to structure complex data, like our contact card from the beginning. Notice how this object contains all the other data types we've seen!",
+        "height": 516,
+        "width": 280,
+        "color": 7
+      },
+      "id": "76fa5320-894b-451f-b372-59144fc0ade3",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note6",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2592,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "json_example_null",
+              "type": "null",
+              "value": {}
+            },
+            {
+              "id": "dd114add-6e5d-4871-969c-53937473ba21",
+              "name": "Name",
+              "value": "XYZ",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "5976d5fa-6788-46b8-b5e5-1cf6d09f5954",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Null",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2096,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### Data Type: Null\n\nThis special type means \"nothing,\" \"no value,\" or \"empty.\"\n- **Syntax:** `null` (lowercase and **WITHOUT quotes**).\n\n\nIt's different from `0` (which is a number) or `\"\"` (which is an empty string). `null` is the intentional absence of a value.",
+        "height": 516,
+        "width": 260,
+        "color": 7
+      },
+      "id": "7786c224-1cd6-4b05-a41b-d47cde98d2a0",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note7",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2016,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "message",
+              "type": "string",
+              "value": "=Hello, the number from the tutorial is: {{ $('Number').item.json.json_example_integer }}"
+            },
+            {
+              "id": "61f385f4-b8e2-4c69-b873-9ffc3ab3fe94",
+              "name": "sub_key",
+              "type": "string",
+              "value": "={{ $json.json_example_object.sub_object.sub_key }}"
+            },
+            {
+              "id": "bd752a0f-64bf-44b1-b39b-fca28e86aa5b",
+              "name": "array_second_item",
+              "type": "string",
+              "value": "={{ $json.json_example_object.array[1] }}"
+            },
+            {
+              "id": "c61234fd-6b08-45a5-996f-4a7b2e167b6b",
+              "name": "Expression",
+              "value": "Expression is amagic function to pull or communicate the data with any node inside your workflow by simply drag and paste it into the value  and you can see in the top LHS, the list of all LHS and you can use any nodes output as your input to the current node and take your desired output",
+              "type": "string"
+            },
+            {
+              "id": "48f09ea5-3ea6-4bf0-ba99-6d4f51d6dc87",
+              "name": "Example: Connecting Expression with String Node, 1st  String Key and  Value output & we can choose either Key or Value based on your desired output",
+              "value": "={{ $('String').item.json.Spouse }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "f8f6e7b6-3f48-4e5c-86d6-001ec61d1f81",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Using JSON (Expressions)",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        3024,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### ⭐ THE KEY STEP: Using JSON in n8n!\n\nNow for the magic. How do you use data from a previous node? With **expressions** `{{ }}`.\n\nThis node creates a custom message. Look at the value of the `message` field:\n`Hello, the number from the tutorial is: {{ $('Number').item.json.json_example_integer }}`\n\nIt dynamically pulled the number `10` from the \"Number\" node! This is how you make your nodes talk to each other.",
+        "height": 516,
+        "width": 340,
+        "color": 5
+      },
+      "id": "0b3ddc47-b1ff-4016-957b-cb6f584a996f",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note8",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        2896,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e87952cb-878e-4feb-8261-342eaf887838",
+              "name": "summary_string",
+              "type": "string",
+              "value": "=\"String is text mentioned within double quotes\""
+            },
+            {
+              "id": "12345",
+              "name": "summary_number",
+              "type": "number",
+              "value": 7777
+            },
+            {
+              "id": "67890",
+              "name": "summary_boolean",
+              "type": "boolean",
+              "value": "={{ $('Boolean').item.json.json_example_boolean }}"
+            },
+            {
+              "id": "abcde",
+              "name": "summary_null",
+              "type": "null",
+              "value": "={{ $('Null').item.json.json_example_null }}"
+            },
+            {
+              "id": "fghij",
+              "name": "summary_array",
+              "type": "array",
+              "value": "={{ $('Array').item.json.json_example_array }}"
+            },
+            {
+              "id": "klmno",
+              "name": "summary_object",
+              "type": "object",
+              "value": "={{ $('Object').item.json.json_example_object }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d1004e2e-15b6-4108-9811-6e7d980822d3",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Final Exam",
+      "type": "n8n-nodes-base.set",
+      "creator": "Lucas Peyrin",
+      "position": [
+        3376,
+        1056
+      ],
+      "typeVersion": 3.4,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "#### 🎓 FINAL EXAM: Putting It All Together\n\nThis last node creates a final object by using expressions to pull data from **all the previous nodes**.\n\nClick on this node and look at the expressions in each field. It's a perfect summary of everything you've learned.\n\n**Congratulations! You now understand the basics of JSON and how to use it in n8n.**",
+        "height": 516,
+        "width": 340,
+        "color": 6
+      },
+      "id": "43eb149b-ccd3-4557-b744-ef5d9dcf82d9",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note9",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        3264,
+        704
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "## Was this helpful? Let me know!\n[![clic](https://supastudio.ia2s.app/storage/v1/object/public/assets/n8n/clic_down_lucas.gif)](https://n8n.ac)\n\nI really hope this tutorial helped you understand JSON better. Your feedback is incredibly valuable and helps me create better resources for the n8n community.\n\n### **Share Your Thoughts & Ideas**\n\nWhether you have a suggestion, found a typo, or just want to say thanks, I'd love to hear from you!\nHere's a simple n8n form built for this purpose:\n\n#### ➡️ **[Click here to give feedback](https://api.ia2s.app/form/templates/feedback?template=JSON%20Tutorial)**\n\n### **Ready to Build Something Great?**\n\nIf you're looking to take your n8n skills or business automation to the next level, I can help.\n\n**🎓 n8n Coaching:** Want to become an n8n pro? I offer one-on-one coaching sessions to help you master workflows, tackle specific problems, and build with confidence.\n#### ➡️ **[Book a Coaching Session](https://api.ia2s.app/form/templates/coaching?template=JSON%20Tutorial)**\n\n**💼 n8n Consulting:** Have a complex project, an integration challenge, or need a custom workflow built for your business? Let's work together to create a powerful automation solution.\n#### ➡️ **[Inquire About Consulting Services](https://api.ia2s.app/form/templates/consulting?template=JSON%20Tutorial)**\n\n---\n\nHappy Automating!\nLucas Peyrin | [n8n Academy](https://n8n.ac)",
+        "height": 1280,
+        "width": 540,
+        "color": 3
+      },
+      "id": "b8fce06f-abe9-45cd-b365-97743a0d8dca",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note10",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        3632,
+        -64
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "## [Video Tutorial](https://youtu.be/PAmgrwYnzWs?si=yXG1oHIL3UiBcAPa)\n@[youtube](PAmgrwYnzWs)",
+        "height": 300,
+        "width": 460,
+        "color": 2
+      },
+      "id": "da4af3ac-a717-489d-bb64-3ef34167a0fc",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note11",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        368,
+        240
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "[![Execute Workflow](https://supastudio.ia2s.app/storage/v1/object/public/assets/n8n/execute_workflow_json_tutorial.gif)](https://www.youtube.com/watch?v=PAmgrwYnzWs)",
+        "height": 392,
+        "width": 576,
+        "color": 7
+      },
+      "id": "b29ca9fc-7fc2-4dd7-9fca-d2d2a9bae237",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note14",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        912,
+        160
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    },
+    {
+      "parameters": {
+        "content": "## [>> Go to Eval Workflow <<](https://n8n.io/workflows/6232)\n\nVerify your skills with a complete eval workflow to put your JSON Skills to the test.\n[![Test Skills](https://supastudio.ia2s.app/storage/v1/object/public/assets/n8n/test_your_skillls_button.gif)](https://n8n.io/workflows/6232)",
+        "height": 312,
+        "width": 336,
+        "color": 6
+      },
+      "id": "0d2835ec-33c8-426b-87cd-74af33011bd5",
+      "cid": "Ikx1Y2FzIFBleXJpbiI",
+      "name": "Sticky Note15",
+      "type": "n8n-nodes-base.stickyNote",
+      "creator": "Lucas Peyrin",
+      "position": [
+        3264,
+        368
+      ],
+      "typeVersion": 1,
+      "notes": "© 2025 Lucas Peyrin"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Null": {
+      "main": [
+        [
+          {
+            "node": "Array",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Array": {
+      "main": [
+        [
+          {
+            "node": "Object",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Number": {
+      "main": [
+        [
+          {
+            "node": "Boolean",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Object": {
+      "main": [
+        [
+          {
+            "node": "Using JSON (Expressions)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "String": {
+      "main": [
+        [
+          {
+            "node": "Number",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Boolean": {
+      "main": [
+        [
+          {
+            "node": "Null",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Key & Value": {
+      "main": [
+        [
+          {
+            "node": "String",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute to Start": {
+      "main": [
+        [
+          {
+            "node": "Key & Value",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Using JSON (Expressions)": {
+      "main": [
+        [
+          {
+            "node": "Final Exam",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata",
+    "callerPolicy": "workflowsFromSameOwner",
+    "executionTimeout": -1
+  },
+  "versionId": "50c49fd0-bcd8-4c40-ac3a-cb30e04d9b57",
+  "meta": {
+    "templateId": "5170",
+    "instanceId": "fe406fbe2e316f9a3c3fa9a3b22c82da1a7eb9f3d17735c9e98468ea77f86f5f"
+  },
+  "id": "FEkRyJuHrSAsxh5d",
+  "tags": []
+}
